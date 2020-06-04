@@ -1,0 +1,29 @@
+<html>
+<style>
+.center {
+  margin: auto;
+  width: 30%;
+  border: 3px solid #e86258;
+  padding: 5px;
+}
+</style>
+<div class="center">
+<p style=
+	"color:black;
+		font-size:30px;
+		font-weight: bold;">Redirecting to cloud in <span id="counter">5</span> second(s).</p></div>
+<script type="text/javascript">
+function countdown() {
+    var i = document.getElementById('counter');
+    if (parseInt(i.innerHTML)<=0) {
+        location.href = 'https://outlookuwicac-my.sharepoint.com/personal/st20157913_outlook_cardiffmet_ac_uk/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fst20157913%5Foutlook%5Fcardiffmet%5Fac%5Fuk%2FDocuments%2FAADIL%20PUBLIC&originalPath=aHR0cHM6Ly9vdXRsb29rdXdpY2FjLW15LnNoYXJlcG9pbnQuY29tLzpmOi9nL3BlcnNvbmFsL3N0MjAxNTc5MTNfb3V0bG9va19jYXJkaWZmbWV0X2FjX3VrL0V1ek8xcE1hNGpsTm01aGFYSlN5QkpzQm15ZzVEdTY3aXJyZGlMM1lkNDFCWlE_cnRpbWU9NXpfdnFYc0kyRWc';
+    }
+if (parseInt(i.innerHTML)!=0) {
+    i.innerHTML = parseInt(i.innerHTML)-1;
+}
+}
+setInterval(function(){ countdown(); },500);
+</script>
+
+<p>Mushad Aadil</p>
+</html>
