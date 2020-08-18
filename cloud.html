@@ -1,30 +1,25 @@
 <html>
-<head>
-<style>
-.center {
-  margin: auto;
-  width: 30%;
-  border: 3px solid #e86258;
-  padding: 5px;
-}
-</style>
-<div class="center">
-<p style=
-	"color:black;
-		font-size:30px;
-		font-weight: bold;">Redirecting to cloud in <span id="counter">3</span> second(s).</p></div>
+
+ <link rel = "stylesheet"
+   type = "text/css"
+   href = "css/clock.css" />
 <script type="text/javascript">
+timeLeft = 10;
+
 function countdown() {
-    var i = document.getElementById('counter');
-    if (parseInt(i.innerHTML)<=0) {
-		location.href="https://outlookuwicac-my.sharepoint.com/:f:/g/personal/st20157913_outlook_cardiffmet_ac_uk/EuzO1pMa4jlNm5haXJSyBJsBne5It41WBtdA5rouvo0vjg?e=9bjLdG";
-    }
-if (parseInt(i.innerHTML)!=0) {
-    i.innerHTML = parseInt(i.innerHTML)-1;
-}
-}
-setInterval(function(){ countdown(); },500);
+	timeLeft--;
+	document.getElementById("seconds").innerHTML = String( timeLeft );
+	if (timeLeft > 0) {
+		setTimeout(countdown, 1000);
+	}
+};
+
+setTimeout(countdown, 1000);
 </script>
-</head>
-<p>Mushad Aadil</p>
+
+<div id="clock">
+	<span id="seconds">10</span>
+</div>
+    <meta http-equiv="refresh" content="3; URL='https://outlookuwicac-my.sharepoint.com/:f:/g/personal/st20157913_outlook_cardiffmet_ac_uk/EuzO1pMa4jlNm5haXJSyBJsBne5It41WBtdA5rouvo0vjg?e=9bjLdG'" />
+
 </html>
