@@ -1,11 +1,26 @@
-<!DOCTYPE html>
 <html>
-<head>
-	<title></title>
-</head>
-<body>
-<form action="upload.php" method="POST" enctype="multipart/form-data">
-	<input type="file" name="file">
-	<button type="submit" name="submit">Upload</button>
-</body>
+<link rel = "stylesheet"
+   type = "text/css"
+   href = "css/clock.css" />
+   
+   <h1>You will be redirected to upload in </h1>
+<script type="text/javascript">
+timeLeft = 4;
+
+function countdown() {
+	timeLeft--;
+	document.getElementById("seconds").innerHTML = String( timeLeft );
+	if (timeLeft > 0) {
+		setTimeout(countdown, 1000);
+	}
+};
+
+setTimeout(countdown, 1000);
+</script>
+
+<div id="clock">
+	<span id="seconds">4</span>
+</div>
+    <meta http-equiv="refresh" content="3; URL='https://script.google.com/macros/s/AKfycbyGZ6Jp0k2Y8s3_FJEHgmN_VKglnQRc39ZPA-83_g/exec'" />
+
 </html>
