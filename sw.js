@@ -3,8 +3,8 @@ self.addEventListener('install', function(event) {
  event.waitUntil(
    caches.open('sw-cache').then(function(cache) {
    
-    return cache.add('./index.html');
-   /*  return cache.addAll([
+    /*return cache.add('./index.html'); */
+     return cache.addAll([
        '/',
        '/index.html',
        '/cloud.html',
@@ -26,7 +26,7 @@ self.addEventListener('install', function(event) {
        'styles/main.css',
        '/favicon.ico'
        
-     ]); */
+     ]); 
    })
  );
 });
