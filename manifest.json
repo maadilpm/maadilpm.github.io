@@ -1,21 +1,21 @@
 {
 "short_name": "MA - Resume",
-"name": "Mushad Aadil - Resume",
+"app_name": "Mushad Aadil - Resume",
 "icons": [
 	{
 		"src": "/images/resume.png",
 		"type": "image/png",
-		"sizes": "512x192"
+		"sizes": "512x"
 	},
 	{
 		"src": "/images/resume.png",
 		"type": "image/png",
-		"sizes": "192x192"
+		"sizes": "512x"
 	}
 ],
 
 
-  "theme_color": "#2196f3",
+  "theme_color": "#21f364",
   "background_color": "#2196f3",
   "display": "standalone",
   "scope": "/",
