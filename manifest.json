@@ -16,8 +16,12 @@
 		"src": "/images/resume.png",
 		"type": "image/png",
 		"sizes": "144x"
+	},
+	{
+		"src": "/images/resume.png",
+		"type": "image/png",
+		"sizes": "256x"
 	}
-
 ],
 
 
