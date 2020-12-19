@@ -5,7 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mushad Aadil - Resume</title>
-    <meta name="description" content=""/>
+    <meta name="theme-color" content="#2196f3" />
+    <link rel="manifest" href="manifest.json">
+    
+
+    <script>
+    	if('serviceWorker' in navigator){
+    		navigator.serviceWorker.register('sw.js');
+    	};
+    </script>
+
+    
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/aos.css" rel="stylesheet">
@@ -411,6 +421,13 @@
       <div class="text-center text-muted">
       </div>
     </footer>
+    <script>
+		if('serviceWorker' in navigator) {
+		  navigator.serviceWorker
+		           .register('/sw.js')
+		           .then(function() { console.log("Service Worker Registered"); });
+		}
+	</script>
     <script src="js/core/jquery.3.2.1.min.js"></script>
     <script src="js/core/popper.min.js"></script>
     <script src="js/core/bootstrap.min.js"></script>

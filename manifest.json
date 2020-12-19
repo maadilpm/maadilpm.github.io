@@ -1,10 +1,23 @@
-
+{
 "short_name": "WDI",
 "name": "Wiredelta PWA",
 "icons": [
 	{
-		"src: ""
+		"src": "/images/resume.png",
+		"type": "image/png",
+		"sizes": "512x512"
+	},
+	{
+		"src": "/images/resume.png",
+		"type": "image/png",
+		"sizes": "512x512"
 	}
+],
 
 
-]
+  "theme_color": "#2196f3",
+  "background_color": "#2196f3",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/index.html"
+}
