@@ -1,0 +1,10 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "xyz.appmaker.wiotij",
+      "sha256_cert_fingerprints": ["5B:44:BD:81:D1:3C:1C:5E:2E:C3:C6:DD:FD:E4:6E:10:65:F6:08:42:7C:C3:2D:9A:C0:3D:E9:F1:C9:AF:85:98"]
+    }
+  }
+]
