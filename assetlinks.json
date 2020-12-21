@@ -1,0 +1,10 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "xyz.appmaker.caifjs",
+      "sha256_cert_fingerprints": ["8C:09:A6:1C:BA:D6:60:22:C6:86:F6:0B:F4:6B:3F:51:BB:2D:03:AD:16:4B:A7:E6:F8:E2:84:7B:86:58:6B:3A"]
+    }
+  }
+]
