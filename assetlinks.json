@@ -1,0 +1,10 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "xyz.appmaker.cmkuno",
+      "sha256_cert_fingerprints": ["44:FB:C4:12:78:5F:A2:75:01:72:2B:DC:78:39:73:57:72:86:25:9E:F8:81:D4:65:76:1F:F8:87:13:47:F4:31"]
+    }
+  }
+]
