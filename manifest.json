@@ -32,5 +32,6 @@
   "start_url": "/index.html",
   "orientation": "portrait",
   "screenshots": [],
-  "name": "Mushad Aadil - Resume"
+  "name": "Mushad Aadil - Resume",
+  "categories": ["books", "education", "medical"]
 }
