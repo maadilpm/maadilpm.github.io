@@ -1,7 +1,6 @@
 {
 "short_name": "MA - Resume",
 "app_name": "Mushad Aadil - Resume",
-"name": "Mushad Aadil - Resume",	
 "icons": [
 	{
 		"src": "/images/resume.png",
@@ -31,7 +30,7 @@
   "display": "fullscreen",
   "scope": "/",
   "start_url": "/index.html",
-  "orientation": "portrait"
-"screenshots": [],
-    "name": "test"
+  "orientation": "portrait",
+  "screenshots": [],
+  "name": "Mushad Aadil - Resume"
 }
