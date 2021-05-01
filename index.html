@@ -16,8 +16,7 @@
     	};
     </script> 
     
-
-    
+  
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/aos.css" rel="stylesheet">
@@ -87,7 +86,23 @@
             <div class="h4 mt-0 title">Basic Information</div>
             <div class="row">
               <div class="col-sm-4"><strong class="text-uppercase">Age:</strong></div>
-              <div class="col-sm-8">20</div>
+              <div class="col-sm-8"><script>  
+				    var dob = new Date("11/19/1999");  
+				    //calculate month difference from current date in time  
+				    var month_diff = Date.now() - dob.getTime();  
+				      
+				    //convert the calculated difference in date format  
+				    var age_dt = new Date(month_diff);   
+				      
+				    //extract year from date      
+				    var year = age_dt.getUTCFullYear();  
+				      
+				    //now calculate the age of the user  
+				    var age = Math.abs(year - 1970);  
+				      
+				    //display the calculated age  
+				    document.write(age);  
+					</script></div>
             </div>
             <div class="row mt-3">
               <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
