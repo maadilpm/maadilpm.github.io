@@ -70,7 +70,7 @@ input[type=submit]:hover {
 </head>
 <body>
 
-<h2>Request Age</h2>
+<h2>Request Details</h2>
 
 <div class="container">
   <form action="https://formspree.io/f/xeqvewog"
@@ -80,7 +80,23 @@ input[type=submit]:hover {
         <label>Your Email:</label>
       </div>
       <div class="col-75">
-        <input type="email" name="_replyto" placeholder="email">
+        <input type="email" name="_replyto" placeholder="Email">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="age"> Request Age</label>
+      </div>
+      <div class="col-75">
+        <input type="checkbox" id="age" name="_replyto" value="Age">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="nationality"> Request Nationality</label>
+      </div>
+      <div class="col-75">
+        <input type="checkbox" id="nationality" name="_replyto" value="Nationality">
       </div>
     </div>
     <br>
