@@ -8,7 +8,7 @@
 }
 
 input[type=text], select, textarea {
-  width: 100%;
+  width: 50%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -27,16 +27,29 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  float: right;
+  float: left;
 }
 
 input[type=submit]:hover {
   background-color: #45a049;
 }
 
-.container {
+h2 { 
+  display: block;
+  font-size: 2em;
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+.container1 {
   border-radius: 5px;
   background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.container2 {
+  border-radius: 5px;
+  background-color: #97c0e6;
   padding: 20px;
 }
 
@@ -70,14 +83,14 @@ input[type=submit]:hover {
 </head>
 <body>
 
-<h2>Request Details</h2>
 
-<div class="container">
+
+<div class="container1">
   <form action="https://formspree.io/f/xeqvewog"
     method="POST">
     <div class="row">
       <div class="col-25">
-        <label>Your Email:</label>
+        <label style="font-size:120%;font-weight:bold;">Your Email:</label>
       </div>
       <div class="col-75">
         <input type="email" name="_replyto" placeholder="Email" required="yes">
@@ -85,7 +98,29 @@ input[type=submit]:hover {
     </div>
     <div class="row">
       <div class="col-25">
-        <label for="age"> Request Age</label>
+        <label style="font-size:120%;font-weight:bold;">Your Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" name="name" placeholder="Name" required="yes"><br>
+      </div>
+    </div>
+      <div class="row">
+      <div class="col-25">
+        <label style="font-size:120%;font-weight:bold;">Company:</label>
+      </div>
+      <div class="col-75">
+        <input type="text" name="company" placeholder="Company Name" required="yes">
+      </div>
+    </div>
+    </div>
+    <br>
+    
+    <br>
+    <div class="container2">
+      <h2>Request Details:</h2>
+    <div class="row">
+      <div class="col-25">
+        <label style="font-size:120%;font-weight:bold;" for="age">Age</label>
       </div>
       <div class="col-75">
         <input type="checkbox" name="age" value="yes" required="yes">
@@ -93,10 +128,18 @@ input[type=submit]:hover {
     </div>
     <div class="row">
       <div class="col-25">
-        <label for="nationality"> Request Nationality</label>
+        <label style="font-size:120%;font-weight:bold;" for="nationality">Nationality</label>
       </div>
       <div class="col-75">
         <input type="checkbox" name="nationality" value="yes">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label style="font-size:120%;font-weight:bold;" for="nationality">References</label>
+      </div>
+      <div class="col-75">
+        <input type="checkbox" name="references" value="yes">
       </div>
     </div>
     <br>
@@ -105,7 +148,7 @@ input[type=submit]:hover {
       <input type="submit" value="Request">
     </div>
   </form>
-</div>
+  </div>
 
 </body>
 </html>
